@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>
+            ONLINE VOTING SYSTEM - REGISTRATION
+        </title>
+        <link rel="stylesheet" href="../CSS/stylesheet.css">
+    </head>
+
+    <body>
+        <center>
+        <style>
+           #address{width: 25%;}
+        </style>
+
+        <h1>ONVOT</h1><hr>
+        <h3>Register Yourself</h3>
+        <form action="../api/register.php" method="POST">
+            <input type="text" name="name" placeholder="Enter your name">
+            <input type="number" name="mobile" placeholder="Enter mobile number"><br><br>
+            <input type="password" name="password" placeholder="Enter your password">
+            <input type="password" name="confirm password" placeholder="Confirm your password"><br><br>
+            <input id="address" type="text" name="address" placeholder="Enter your address"><br><br>
+            &emsp;&emsp;&emsp; Upload your Image:<input type="file" name="Photo"><br><br>
+            
+            Type of User?<select name="role">
+               <option value="1">Voter</option>
+               <option value="2">Candidate</option>
+               <option value="3">Admin</option>
+           </select><br><br><br>
+        
+
+           <button style="padding: 5px;
+                          border-radius: 5px;
+                          background-color: blue;
+                          color: azure;">
+               Register
+           </button><br><br><br>
+           Existing User?<a href="../index.html">Login Here</a>
+
+        </form>
+    </center>
+    </body>
+</html>

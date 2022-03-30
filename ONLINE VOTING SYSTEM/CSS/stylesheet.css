@@ -1,0 +1,31 @@
+body{
+    background-color: #b7f4d8 ;
+}
+
+#HeaderSection{
+    padding: 10px;
+}
+
+#HeaderSection h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+#HeaderSection h2{
+    font-family:'Courier New', Courier, monospace;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#dropbox{
+    padding: 10px;
+    border-radius: 5px;
+    width: 12%;
+}
+#loginbtn{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: blue;
+    color: azure;
+}
